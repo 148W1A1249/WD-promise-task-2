@@ -59,7 +59,7 @@ return element;
 
 function weather(id,lan1,lan2){
     
-    fetch('http://api.openweathermap.org/data/2.5/weather?lat='+lan1+'&lon='+lan2+'&appid=1ca1437f8d9685f11cdb5d094a3ae938')
+    fetch('https://api.openweathermap.org/data/2.5/weather?lat='+lan1+'&lon='+lan2+'&appid=1ca1437f8d9685f11cdb5d094a3ae938')
     .then((resp)=>{
         return resp.json();
     })
